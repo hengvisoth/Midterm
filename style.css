@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'PT Sans', sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+}
+section{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8% ;
+    padding-bottom: 15px;
+    background-color: rgb(219, 218, 218);
+}
+nav img{
+    height: 70px;
+    width: 150px;
+}
+nav ul li{
+    list-style-type: none;  
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(189, 11, 11);
+}
+.welcome{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+.background{
+    background-color: rgba(46, 44, 44, 0.705);
+}
+footer section h2{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+.about{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://miro.medium.com/max/1200/1*geZHdCqMeayhMzPlRQ1toQ.png");
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.logo img   {
+    height: 10%;
+    width: 10%;
+    
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+}
